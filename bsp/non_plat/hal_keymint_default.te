@@ -2,3 +2,5 @@
 # Operation: TEEI integration
 # Purpose: Microtrust HW-backed Keymint
 allow hal_keymint_default teei_client_device:chr_file rw_file_perms;
+allow hal_keymint_default tkcore_protect_data_file:dir search;
+allow hal_keymint_default tkcore_protect_data_file:file r_file_perms;
