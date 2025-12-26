@@ -27,6 +27,7 @@ allow mtk_hal_nvramagent nvdata_file:file create_file_perms;
 allow mtk_hal_nvramagent als_ps_device:chr_file r_file_perms;
 allow mtk_hal_nvramagent mtk-adc-cali_device:chr_file rw_file_perms;
 allow mtk_hal_nvramagent gsensor_device:chr_file r_file_perms;
+allow mtk_hal_nvramagent gsm0710muxd_device:chr_file rw_file_perms;
 allow mtk_hal_nvramagent gyroscope_device:chr_file r_file_perms;
 allow mtk_hal_nvramagent self:capability { fowner chown fsetid };
 
