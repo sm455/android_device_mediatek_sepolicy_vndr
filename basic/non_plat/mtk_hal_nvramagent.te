@@ -40,6 +40,10 @@ allow mtk_hal_nvramagent block_device:dir search;
 allow mtk_hal_nvramagent mtd_device:dir search;
 allow mtk_hal_nvramagent mtd_device:chr_file rw_file_perms;
 
+# ccci
+allow mtk_hal_nvramagent sysfs_ccci:dir search;
+allow mtk_hal_nvramagent sysfs_ccci:file r_file_perms;
+
 # Allow a set of permissions required for a domain to be a server which provides a HAL implementation over HWBinder.
 hal_server_domain(mtk_hal_nvramagent, hal_mtk_nvramagent)
 read_fstab(mtk_hal_nvramagent)
