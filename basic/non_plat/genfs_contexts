@@ -279,6 +279,7 @@ genfscon sysfs /devices/platform/soc/soc:mtk-leds/leds/lcd-backlight           u
 genfscon sysfs /devices/platform/mtk_leds/leds/lcd-backlight                   u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/i2c_leds/leds/lcd-backlight                   u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/regulator_vibrator/leds/vibrator              u:object_r:sysfs_vibrator:s0
+genfscon sysfs /devices/platform/regulator-vibrator/leds/vibrator              u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/platform/leds-mt65xx/leds                              u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/pwmleds/leds                                  u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/disp_leds/leds                                u:object_r:sysfs_leds:s0
